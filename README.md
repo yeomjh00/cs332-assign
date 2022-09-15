@@ -16,3 +16,4 @@ Commit Type:
 7. refactor: A code change that neither fixes a bug nor adds a feature
 8. style: Changes that do not affect the meaning of the code
 9. test: Adding missing tests or correcting existing tests
+10. format: change format of files/directory for submission
