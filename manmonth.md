@@ -16,15 +16,30 @@
 
 현실적인 자원과 시간을 가지고, 가장 최선의 답을 찾아내는 것이다.
 
-# Chapter2. 맨먼스 미신
+# Chapter2. The Mythical Man-Month
 
 이 단원의 이름 Man-Month는 흔히들 생각하는 일을 측정하는 단위이다.
 
 몇몇 사람들은 개발 진척이 느리거나, 일을 빠르게 진행시키고자 할 때, 인력을 더 투입하곤 한다.
 
-하지만, 이런 단위는 매우 위험한 신화이다.
+그것이 바로 man-month myth이다. 일은 man*month로 나타낼 수 있고, 사람을 더 갈아넣으면 더 빠르게 일을 할 수 있다는 것이 흔히 받아들여지는 의견이다.
+
+하지만, 이런 단위는 근거 없는 미신이다.
 
 많은 소프트웨어 개발에는 개발자 사이의 소통을 필요로 한다. 모든 개발자들은 프로젝트에 대해서 잘 알고 있어야 하며, 자신이 어떤 일을 하는지 잘 알고 있다.
 
 하지만, 무작정 사람을 투입하게 된다면, 좋지 않은 결과를 초래할 수 있다.
 
+단,man-month가 잘 적용되는 경우는, 개발자들이 서로 소통하지 않아도 되는 경우이다. 따라서 대부분의 소프트웨어 프로젝트에서는 통하지 않는다.
+
+
+1/3 for planning
+1/6 for coding
+1/4 component testing and ealry system testing
+1/4 system test, all components in hand
+=> to sum up, 1/2 for debugging, testing, 1/3 for designing, small piece for coding.
+
+<교수님의 의견>
+software developement에서 가장 중요한 것은 시간이다.
+
+그리고 시간을 잘 줄이는 방법은 doccumentation이다! 푸는데 한 시간 이상이 걸렸던 문제는 doccumentation을 잘 해두자. 언젠가 쓸 날이 온다.
