@@ -216,6 +216,63 @@ page.addFooter(a);
 예외처리가 잘 된다는 것은 기능이 기능만 잘 작동하게 하면 된다는 것이기 때문이다.
 그 과정중에서 코드 역시 더 안정적으로 작동하게 된다.
 
+# Chapter 9. Unit Test
+
+개발을 하기 위한 3가지 방법론: Requirement Design, TTL, TDD
+
+Requirement Design(or Waterfall Model):
+1. Requiremnet
+2. Design
+3. Implementation
+4. Verification
+5. Maintenance
+
+Strong emphasis on documnetaion
++) Okay if requiremnets are fixed
+-) Not okay if requirements cannot be defined accurately
+
+Requirement Developemnet:
+
+아직 유명하다. why? 대규모 작업할 때, 분업화하기 편하기 때문이다.
+
+Traditional Test-Last Development vs Test-Driven Development
+Traditional Test-Last Development:
+1. High level design/architecture
+2. Detailed Design
+3. Code
+4. Unit Test
+5. Test
+
+TDD Test-First
+1. High level design/architecture
+2. Loop
+   1. Unit Test
+   2. Code
+   3. Refactor
+3. Test
+
+Test Driven Development
+
+Benefit:
+
+테스트 케이스를 만드는 것은 일종의 디자인이다.
+
+실수, 혹은 에러를 조기에 발견할 수 있다.
+
+# Chapter 9. Unit Test
+
+TDD를 위한 세 가지 방법
+
+1. 불필요할정도로 많은 테스트케이스는 필요 없다.
+2. 많은 코드 X
+
+
+나중에 찾아볼 것:
+
+> 객체 지향의 정수: Favor Composition over Inheritance/Dependency Injection
+
+> Essence of Computational Thinking: Recursion/Inductive Definition in Data Representation/
+
 
 
 
